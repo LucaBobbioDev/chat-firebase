@@ -1,4 +1,9 @@
 # FireChat - Chat com Firebase
- Chat criado com React JS, Sass e ferramentas do Firebase (Google Auth e Firestore)
-## Logo 
-<img src="./src/assets/FireChat.png"/>
+ Um simples chat criado com React JS, pré-processador Sass e Firebase
+### Tecnologias
+- React JS
+- Pré-procesador SASS
+- Firebase (Authentication & Cloud Firestore)
+- Visual Studio Code
+### Logo 
+<img src="./src/assets/FireChat.png" width="200"/>
