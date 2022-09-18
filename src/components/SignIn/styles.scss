@@ -15,6 +15,11 @@
 
         margin: 3px;
 
+        img{
+            margin: 0;
+            border-radius: 2em;
+            border: 1px solid;
+        }
         .header-subtitle{
             width: 50%;
             color: index.$subtitle-text;

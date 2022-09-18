@@ -7,8 +7,9 @@ import { GoogleAuthProvider, signInWithPopup } from 'firebase/auth'
 //Icon da biblioteca react-icons
 import { FaGoogle } from "react-icons/fa";
 
-//Imagem
+//Imagens
 import chat from '../../assets/chat.svg'
+import logo from '../../assets/FireChat.png'
 
 //Estilização
 import './styles.scss'
@@ -34,6 +35,7 @@ export const SignIn = () => {
 
         <header className='signIn-header'>
             <h1 className='header-title'>Welcome to FireChat</h1>
+            <img src={logo} width={130} alt="The logo of this web application"/>
             <p className='header-subtitle'>We use Google authentication to make the user's life easier, allowing them to use our application without registering.</p>
         </header>
 
