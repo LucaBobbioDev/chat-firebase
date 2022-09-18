@@ -15,7 +15,7 @@ To run this project, install it locally using npm:
 ```
 $ git clone https://github.com/LucaBobbioDev/chat-firebase.git
 $ npm install
-$ npm start
+$ npm start or npm run dev
 ```
 Firebase SDK
 ```
