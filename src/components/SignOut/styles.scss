@@ -1,0 +1,19 @@
+/*Importando o arquivo index.scss para poder fazer uso das variáveis*/
+@use '../../index.scss';
+
+.signOut-button{
+    color: index.$global-text-color;
+    background-color: #FC2323;
+
+    font-family: index.$font-stack;
+    font-size: 17px;
+
+    border-radius: 3px;
+    border-style: none;
+
+    padding: 1px 10px;
+
+    &:hover{
+        font-weight: bold;
+    }
+}

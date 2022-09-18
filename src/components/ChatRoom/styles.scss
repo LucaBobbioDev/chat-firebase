@@ -1,0 +1,85 @@
+/*Importando o arquivo index.scss para poder fazer uso das variáveis*/
+@use '../../index.scss';
+
+.chatRoom-container{
+    text-align: center;
+
+    .chatRoom-header{
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+
+        margin: 3px;
+
+        .header-subtitle{
+            width: 80%;
+            color: index.$subtitle-text;
+        }
+    }
+
+    .chat-container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+
+        background-color: index.$card-background;
+        border-radius: 5px;
+
+        padding: 10px;
+
+        .chat-header{
+            grid-column: 1 / span 3;
+
+            display: flex;
+            align-items: baseline;
+            justify-content:space-between;
+
+            padding: 0px 10px 0px 10px;
+            border-bottom: 2px solid index.$detail;
+        }
+
+        .chat-img{
+            width: 400px;
+            padding: 1em;
+        }
+
+        .chat-content{
+            width: 300px;
+            padding: 1em;
+            border-left: 2px solid index.$detail;
+
+            .chat-form{
+                display: flex;
+                align-items: baseline;
+                justify-content:space-between;
+
+                .chat-form-input{
+                    width: 100%;
+                    padding: 5px;
+
+                    color: index.$global-text-color;
+                    font-family: index.$font-stack;
+                    font-size: 1em;
+
+                    background: none;
+                    border: none;
+                    border-top: 2px solid #3F3D56;
+                }
+
+                .chat-send-button{
+                    background: none;
+                    border: none;
+    
+                    color: index.$global-text-color;
+    
+                    &:hover {
+                        color: index.$detail;
+                    }
+                }
+            }  
+        }
+    }
+}

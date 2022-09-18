@@ -1,0 +1,60 @@
+/*Definindo as variaveis*/
+$font-stack: 'Poppins', sans-serif;
+
+$global-text-color: #FFF;
+$subtitle-text: #8D8D99;
+
+
+$background: #121214;
+$card-background: #1E1E1E;
+
+$detail: #074170;
+$gray: #e1e1e6;
+
+$button-borderIMG-gradient: linear-gradient(to right, $detail, $gray ) 1;
+
+/*Estilização geral básica*/
+:root {
+  font-family: $font-stack;
+  font-size: 16px;
+
+  color: $global-text-color;
+  background-color: $background;
+
+  box-sizing: border-box
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+
+  min-width: 320px;
+  min-height: 100vh;
+
+  -webkit-font-smoothing: antialiased;
+
+  footer{
+    display: flex;
+    flex-direction: row;
+  
+    justify-content: center;
+    align-items: center;
+  
+    font-weight: bold;
+  }
+
+  button{
+    cursor: pointer;
+  }
+}
+
+
+
+

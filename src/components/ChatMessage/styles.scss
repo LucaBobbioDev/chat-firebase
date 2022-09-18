@@ -1,0 +1,20 @@
+/*Importando o arquivo index.scss para poder fazer uso das variáveis*/
+@use '../../index.scss';
+
+.message{
+    display: flex;
+    align-items: center;
+    
+    padding: 1em;
+    margin: 3px;
+
+    text-align: justify;
+
+    .user-img{
+        width: 3em;
+        border-radius: 5em;
+        margin: 5px;
+    }
+}
+  
+  
