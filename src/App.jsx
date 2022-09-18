@@ -18,7 +18,7 @@ export default function App() {
     <div className="app">
       <section className='app-section'>
         {/*
-        Renderezição condicional: 
+        Renderizição condicional: 
         Se user está logado -> Componente ChatRoom
         Se não está logado -> Componente SignIn
         */}
