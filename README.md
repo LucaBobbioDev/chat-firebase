@@ -1,5 +1,5 @@
 # FireChat - Chat com Firebase
- Um simples chat criado com React JS, pré-processador Sass e Firebase
+ Uma simples aplicação com autenticação de conta google e um chat criado com React JS, pré-processador Sass e Firebase
 ### Tecnologias
 - React JS
 - Vite
