@@ -1,5 +1,7 @@
 # FireChat - Chat com Firebase
- Uma simples aplicação com autenticação de conta google e um chat criado com React JS, pré-processador SCSS e Firebase
+ Uma simples aplicação com autenticação de conta google e um chat criado com React JS, pré-processador SCSS e Firebase.
+ 
+Nessa aplicação web, o usuário faz login através de uma autenticação de conta google. Após logado, o usuário é direcionado para a tela de chat onde ele pode enviar e receber mensagens pra qualquer usuário que também esteja logado na aplicação.
 ### Tecnologias
 - React JS
 - Vite
