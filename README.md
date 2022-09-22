@@ -1,9 +1,9 @@
 # FireChat - Chat com Firebase
- Uma simples aplicação com autenticação de conta google e um chat criado com React JS, pré-processador Sass e Firebase
+ Uma simples aplicação com autenticação de conta google e um chat criado com React JS, pré-processador SCSS e Firebase
 ### Tecnologias
 - React JS
 - Vite
-- Pré-processador SASS
+- Pré-processador SCSS
 - Firebase (Authentication & Cloud Firestore)
 - Visual Studio Code
 ### Logo 
@@ -26,7 +26,7 @@ React Icons
 ```
 $ npm install react-icons --save
 ```
-Pré-processador SASS
+Pré-processador SCSS
 ```
 $ npm install -g sass
 ```
